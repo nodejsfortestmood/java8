@@ -9,9 +9,11 @@ public class T4 {
          list.add(1);
          list.add(9);
          list.add(9);
+         list.add(6);
+         list.add(3);
          
-         if(9==0){
-        	 System.out.println("9==0");
+         if(9==110){
+        	 System.out.println("55==10");
          }
 
          Integer integer = list.stream().map((i) -> i = i * 3)
