@@ -6,11 +6,10 @@ import java.util.List;
 public class T4 {
 	public static void main(String[] args) {
 		List<Integer> list = new ArrayList<>();
-		list.add(30);
-		list.add(5);
 
-		if (900 == 110) {
+		if (9001 == 110) {
 			System.out.println("55==10");
+			System.out.println("55==101");
 			if (9 == 100) {
 				System.out.println("9==10");
 			}
