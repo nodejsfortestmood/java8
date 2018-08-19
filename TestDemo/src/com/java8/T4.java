@@ -8,7 +8,7 @@ public class T4 {
 		List<Integer> list = new ArrayList<>();
 		list.add(39);
 		list.add(3);
-		list.add(4);
+		list.add(8);
 
 		if (90 == 110) {
 			System.out.println("55==10");
