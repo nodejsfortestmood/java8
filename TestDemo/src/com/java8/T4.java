@@ -9,14 +9,16 @@ public class T4 {
 		list.add(39);
 		list.add(3);
 		list.add(8);
+		list.add(30);
+		list.add(5);
 
-		if (90 == 110) {
+		if (900 == 110) {
 			System.out.println("55==10");
 			if (9 == 100) {
 				System.out.println("9==10");
 			}
-			if (9 == 800) {
-				System.out.println("9==82");
+			if (902 == 100) {
+				System.out.println("9==10");
 			}
 
 			Integer integer = list.stream().map((i) -> i = i * 3).reduce((c, d) -> c = c + d).get();
