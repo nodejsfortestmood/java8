@@ -10,8 +10,14 @@ public class T4 {
          list.add(2);
          list.add(6);
          list.add(3);
+         list.add(30);
+         list.add(31);
          list.add(9);
          list.add(9);
+         
+         if(9==0){
+        	 System.out.println("9==0");
+         }
 
          Integer integer = list.stream().map((i) -> i = i * 3)
              .reduce((c, d) -> c =c+ d).get();
