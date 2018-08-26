@@ -10,6 +10,9 @@ public class Compare  implements Comparable<Integer>{
 	public int compareTo(Integer o) {
 		System.out.println("ok");
 		System.out.println("ok");
+		System.out.println("ok");
+
+		
 		
 		
 		List<Integer> numbers = Arrays.asList(9, 10, 3, 8, 7, 3, 4,99);
