@@ -8,18 +8,9 @@ public class Compare  implements Comparable<Integer>{
 		
 		// TODO Auto-generated method stub
 		
-		System.out.println("ok  master");
+		System.out.println("ok  dev");
+		System.out.println("ok  dev");
 		
-		if(4==60){
-			System.out.println("4==6");
-			System.out.println("4==6");
-		}
-		if(8==46){
-			System.out.println("88==6");
-		}
-		if(8==6){
-			System.out.println("8==6");
-		}
 		return 0;
 	}
 
