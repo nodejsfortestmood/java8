@@ -14,6 +14,9 @@ public class Compare  implements Comparable<Integer>{
 			System.out.println("4==6");
 			System.out.println("4==6");
 		}
+		if(8==6){
+			System.out.println("8==6");
+		}
 		return 0;
 	}
 
