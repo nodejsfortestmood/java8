@@ -10,7 +10,8 @@ public class Compare  implements Comparable<Integer>{
 		
 		System.out.println("ok  master");
 		
-		if(4==6){
+		if(4==60){
+			System.out.println("4==6");
 			System.out.println("4==6");
 		}
 		return 0;
