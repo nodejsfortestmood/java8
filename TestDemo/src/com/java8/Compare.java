@@ -9,6 +9,8 @@ public class Compare  implements Comparable<Integer>{
 	@Override
 	public int compareTo(Integer o) {
 		
+		
+		
 		List<Integer> numbers = Arrays.asList(9, 10, 3, 8, 7, 3, 4,99);
 		List<Integer> distinct = numbers.stream().map( i -> i*i*i).distinct().collect(Collectors.toList());
 		System.out.printf("Original List : %s,  Square Without duplicates : %s %n", numbers, distinct);
